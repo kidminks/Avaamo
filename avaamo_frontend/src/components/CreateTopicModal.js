@@ -32,6 +32,7 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
     const [subject, setSubject] = useState("");
     const [content, setContent] = useState("");
     const [type, setType] = useState("DISCUSSION");
+    const [creatorId] = useState(localStorage.getItem('id'));
 
     const submitTopic = () => {
         fetch(`${BASE_URL}${TOPICS_URL}`, {
@@ -41,7 +42,7 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
                 content: content,
                 type: type,
                 status: 'PUBLISHED',
-                creator_id: 31,
+                creator_id: creatorId,
                 permalink: subject.toLowerCase().replace(' ', '_')
             }),
             headers: new Headers({
