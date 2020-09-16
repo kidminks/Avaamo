@@ -1,0 +1,343 @@
+{
+    "data": [{
+        "id": "2266000012354098",
+        "subject": "Once Upon a Sales Meeting!",
+        "content": "It was an awkward silence in the meeting room \"Uproar.\" John Kowalski, the new sales manager, was not happy with the team's performance. After scribbling something in the notepad, he decided to break the silence, John: I cannot believe you guys have been",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "once-upon-a-sales-meeting",
+        "type": "DISCUSSION",
+        "createdTime": "2020-07-17T14:05:50.978Z",
+        "latestCommentTime": "2020-07-17T14:05:50.978Z",
+        "commentCount": "0",
+        "likeCount": "0",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012153438",
+        "subject": "5 tips for introverts to become the best salespersons and earn hefty commissions",
+        "content": "Are you an extrovert? Then, don't read further. These are some secret tips for introverts who want to sell big.   Yeah, I know that there are tons of books and sales trainers who tell that anybody can sell. However if you are an introvert like me, you",
+        "creator": {
+            "id": "4003689896227",
+            "name": "Anish Mathew",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        },
+        "latestCommenter": {
+            "name": "Anish Mathew",
+            "id": "4000103918626",
+            "type": "SUPPORTREP"
+        },
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "5-tips-for-introverts-to-become-the-best-salesperson-and-earn-hefty-commissions",
+        "type": "DISCUSSION",
+        "createdTime": "2020-03-17T09:40:44.978Z",
+        "latestCommentTime": "2020-06-09T09:56:07.978Z",
+        "commentCount": "4",
+        "likeCount": "3",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": {
+            "id": "4000103918626",
+            "name": "Anish Mathew",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        }
+    }, {
+        "id": "2266000012270443",
+        "subject": "Marketing in a post COVID-19 world!",
+        "content": "Consumers across countries are increasingly spending more time on a wide variety of digital activities, right from online grocery shopping, to video conferencing, to tele-medicine. There is a good chance that you performed one or more of the following",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {
+            "name": "vinit.kt",
+            "id": "4001011544207",
+            "type": "ENDUSER"
+        },
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "marketing-in-a-post-covid-19-world",
+        "type": "QUESTION",
+        "createdTime": "2020-05-29T12:58:41.979Z",
+        "latestCommentTime": "2020-06-08T05:21:10.979Z",
+        "commentCount": "7",
+        "likeCount": "2",
+        "isVoted": false,
+        "categoryId": "2266000012008724",
+        "lastCommenter": {
+            "id": "4001011544207",
+            "name": "vinit.kt",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        }
+    }, {
+        "id": "2266000012253070",
+        "subject": "How to scale your SaaS sales",
+        "content": "Founded in 2005, LucidEra was a SaaS startup offering analysis of CRM and ERP data. The company went out of business in 2009, after running into problems with longer sales cycles and its go-to market strategy. The customer base they focused on was sales",
+        "creator": {
+            "id": "4000881426378",
+            "name": "Sushmitha B",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "how-to-scale-your-saas-sales",
+        "type": "DISCUSSION",
+        "createdTime": "2020-05-13T06:08:45.979Z",
+        "latestCommentTime": "2020-05-13T06:08:45.979Z",
+        "commentCount": "0",
+        "likeCount": "0",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012249601",
+        "subject": "7 habits introverted salespeople can learn from the greatest salesperson who ever lived on this planet",
+        "content": "Well, if you are looking for the name of the greatest salesperson, I have to apologize - I will not be revealing who it is.  Here is why I consider him the greatest. He, sold products that changed habits forever sold an intangible product (concept selling",
+        "creator": {
+            "id": "4003689896227",
+            "name": "Anish Mathew",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "7-habits-introverted-salespeople-can-learn-from-the-greatest-salesperson-who-ever-lived-on-this-planet",
+        "type": "DISCUSSION",
+        "createdTime": "2020-05-11T04:41:42.979Z",
+        "latestCommentTime": "2020-05-11T04:41:42.979Z",
+        "commentCount": "0",
+        "likeCount": "1",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012149469",
+        "subject": "Marketing in a Post-GDPR World!",
+        "content": "The purpose of the General Data Protection Regulation (GDPR) is to compel marketers to be more thoughtful, transparent, and respectful of the data they collect and use. Realistically, that means marketers need to take a step back - to stop personalizing",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {
+            "name": "janaki shantharam",
+            "id": "4002398734469",
+            "type": "ENDUSER"
+        },
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "marketing-in-a-post-gdpr-world",
+        "type": "IDEA",
+        "createdTime": "2020-03-17T07:21:37.979Z",
+        "latestCommentTime": "2020-05-01T07:07:19.979Z",
+        "commentCount": "1",
+        "likeCount": "2",
+        "isVoted": false,
+        "categoryId": "2266000012008724",
+        "lastCommenter": {
+            "id": "4002398734469",
+            "name": "janaki shantharam",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        }
+    }, {
+        "id": "2266000012202685",
+        "subject": "With Great Brand Culture Comes Great Employee Advocacy",
+        "content": "During a visit to the NASA space centre in 1962, U.S. President John F. Kennedy noticed a janitor carrying a broom. He interrupted his tour, walked over to the man and said, “Hi, I’m Jack Kennedy. What are you doing?” “Well, Mr. President,” the janitor",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "with-great-brand-culture-comes-great-employee-advocacy",
+        "type": "DISCUSSION",
+        "createdTime": "2020-04-14T06:11:29.979Z",
+        "latestCommentTime": "2020-04-14T06:11:29.979Z",
+        "commentCount": "0",
+        "likeCount": "0",
+        "isVoted": false,
+        "categoryId": "2266000012008724",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012185179",
+        "subject": "Cold Calling Is The Primal Fear You Must Overcome To Master Modern Selling",
+        "content": "[This is a guest blog contributed by a best-selling author, and award-winning Blogger, Tony Hughes. Read more about him at the end of this blog.] Is this smartphone ball and chain really a communication device? I don't think so. The chiropractors of the",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "cold-calling-is-the-primal-fear-you-must-overcome-to-master-modern-selling",
+        "type": "DISCUSSION",
+        "createdTime": "2020-03-31T13:14:27.979Z",
+        "latestCommentTime": "2020-03-31T13:14:27.979Z",
+        "commentCount": "0",
+        "likeCount": "0",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012061621",
+        "subject": "Survey Results: 15 Most Recommended Sales Books of All Time",
+        "content": "At Scaling Sales community, we surveyed 234 salespeople about which sales books they most recommended. Here are the rankings:   RANK #1 SPIN Selling by Neil Rackham. With an entertaining tone, Rackham explains why traditional sales models don't work.",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {
+            "name": "Johnson Johnson",
+            "id": "4001007978099",
+            "type": "ENDUSER"
+        },
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "survey-results-15-most-recommended-sales-books-of-all-time",
+        "type": "IDEA",
+        "createdTime": "2020-01-10T10:19:49.979Z",
+        "latestCommentTime": "2020-02-08T14:32:51.979Z",
+        "commentCount": "1",
+        "likeCount": "1",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": {
+            "id": "4001007978099",
+            "name": "Johnson Johnson",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        }
+    }, {
+        "id": "2266000012069517",
+        "subject": "Email marketing tips for beginners: Get maximum engagement from your email campaigns",
+        "content": "Email continues to remain the most popular, and the most cost effective marketing channels. Whether you are a start-up or a growing business, email marketing can give you maximum ROI for your efforts.  The secret, however, lies in getting all the elements",
+        "creator": {
+            "id": "4001018010793",
+            "name": "Sharanya",
+            "photoUrl": null,
+            "type": "ENDUSER",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "email-marketing-tips-for-beginners-get-maximum-engagement-from-your-email-campaigns",
+        "type": "IDEA",
+        "createdTime": "2020-01-14T14:50:55.979Z",
+        "latestCommentTime": "2020-01-14T14:50:55.979Z",
+        "commentCount": "0",
+        "likeCount": "1",
+        "isVoted": false,
+        "categoryId": "2266000012008724",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012060619",
+        "subject": "An interview with Rand Fishkin, Founder of SparkToro, and previously co-founder of Moz",
+        "content": "1. Tell us about yourself. I'm the co-founder of SparkToro and, prior to that, Moz and Inbound.org. I've been a marketer and an entrepreneur for my entire career -- the last 17 years -- and have made a lot of mistakes from which I hope others can learn",
+        "creator": {
+            "id": "4001417789488",
+            "name": "Anjanaa Santhanam",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "an-interview-with-rand-fishkin-founder-of-sparktoro-and-previously-co-founder-of-moz",
+        "type": "QUESTION",
+        "createdTime": "2020-01-10T09:35:47.979Z",
+        "latestCommentTime": "2020-01-10T09:35:47.979Z",
+        "commentCount": "0",
+        "likeCount": "1",
+        "isVoted": false,
+        "categoryId": "2266000012008724",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012063496",
+        "subject": "How to Leverage Partners in Your Sales Strategy",
+        "content": "At long last, your product is yours to sell; your partners are your primary customers. And each of your partners has their own customer base, untapped by you. It's a market brimming with possibilities.    Your channel partners provide you and your brand",
+        "creator": {
+            "id": "4001062250700",
+            "name": "Shreyasee Ghosh",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "how-to-leverage-partners-in-your-sales-strategy",
+        "type": "DISCUSSION",
+        "createdTime": "2020-01-10T09:35:46.979Z",
+        "latestCommentTime": "2020-01-10T09:35:46.979Z",
+        "commentCount": "0",
+        "likeCount": "2",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }, {
+        "id": "2266000012055151",
+        "subject": "Leave No Sale Behind: Supercharge Growth By Integrating Sales With Service",
+        "content": "Hacksaw Ridge tells the true story of Desmond Doss who served as a combat medic in World War II at the Battle of Okinawa. He was the first and only conscientious objector to receive the Medal of Honor for actions above and beyond the call of duty during",
+        "creator": {
+            "id": "4001417819449",
+            "name": "Vinit Tibrewal",
+            "photoUrl": null,
+            "type": "SUPPORTREP",
+            "label": null
+        },
+        "latestCommenter": {},
+        "status": "PUBLISHED",
+        "label": "NOSTATUS",
+        "permalink": "leave-no-sale-behind-supercharge-growth-by-integrating-sales-with-service",
+        "type": "IDEA",
+        "createdTime": "2019-12-30T10:08:21.979Z",
+        "latestCommentTime": "2019-12-30T10:08:21.979Z",
+        "commentCount": "0",
+        "likeCount": "1",
+        "isVoted": false,
+        "categoryId": "2266000012013274",
+        "lastCommenter": null
+    }],
+    "count": "0"
+}
