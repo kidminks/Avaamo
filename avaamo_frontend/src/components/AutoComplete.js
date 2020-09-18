@@ -8,7 +8,7 @@ const Complete = ({onChange}) => {
     const [options, setOptions] = useState([]);
 
     useEffect(() => {
-        fetch(`${BASE_URL}${TOPICS_URL}/all-subjects`)
+        fetch(`${BASE_URL}${TOPICS_URL}/search/all-subjects`)
             .then(res => res.json())
             .then(res => {
                 setOptions(res);

@@ -24,7 +24,7 @@ const Row = styled.div`
 `;
 
 export const TopicsPage = props => {
-    const [page, setPage] = useState(0);
+    const [page, setPage] = useState(1);
     const [totalCount, setTotalCount] = useState(0);
     const [content, setContent] = useState([]);
     const [subject, setSubject] = useState(undefined);
@@ -35,7 +35,7 @@ export const TopicsPage = props => {
 
     useEffect(() => {
         if (page != undefined) {
-            fetch(`${BASE_URL}${TOPICS_URL}?page=${page}&size=5${subject ? `&subject=${subject}` : ''}`)
+            fetch(`${BASE_URL}${TOPICS_URL}?page=${page}${subject ? `&subject=${subject}` : ''}`)
                 .then(res => res.json())
                 .then(res => {
                     setTotalCount(res.totalPages);
@@ -60,7 +60,7 @@ export const TopicsPage = props => {
                     } else {
                         setSubject(undefined);
                     }
-                    setPage(0);
+                    setPage(1);
                 }}/>
             </div>
         </Header>
@@ -70,11 +70,11 @@ export const TopicsPage = props => {
                 setOpenCreateTopicModal(true);
             }}>Create Topic</Button>}
             <Pagination
-                page={page + 1}
+                page={page}
                 count={totalCount}
                 variant="outlined" shape="rounded"
                 onChange={(e, v) => {
-                    setPage(v - 1)
+                    setPage(v)
                 }}
             />
         </Row>
@@ -88,7 +88,7 @@ export const TopicsPage = props => {
                                 <h3>{data.subject}</h3>
                                 <p>{data.content}</p>
                                 <span style={{color: 'grey'}}>
-                                    <p>Created By :- {data.users && data.users.name}</p>
+                                    <p>Created By :- {data.creator && data.creator.name}</p>
                                     <p>Created At :- {data.created_at}</p>
                                 </span>
                             </Row>

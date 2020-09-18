@@ -31,7 +31,7 @@ export const TopicPage = props => {
             method: 'post',
             body: JSON.stringify({
                 content: comment,
-                type: 'COMMENTS',
+                topic_type: 'comment',
                 creator_id: creatorId,
                 topic_id_for_comment: props.match.params.id,
                 permalink: comment.toLowerCase().replace(' ', '_')
@@ -47,7 +47,7 @@ export const TopicPage = props => {
 
     const increaseLikes = (likes) => {
         fetch(`${BASE_URL}${TOPICS_URL}/${props.match.params.id}`, {
-            method: 'post',
+            method: 'put',
             body: JSON.stringify({
                 likes: likes
             }),
@@ -104,7 +104,7 @@ export const TopicPage = props => {
                             <Row style={{flexDirection: 'column', flex: '0.9'}}>
                                 <h3>{topic.subject}</h3>
                                 <p>{topic.content}</p>
-                                <p>Created By :- {topic.users.name}</p>
+                                <p>Created By :- {topic.creator.name}</p>
                                 <span onClick={() => {
                                     increaseLikes(topic.likes + 1)
                                 }}>
@@ -144,7 +144,7 @@ export const TopicPage = props => {
                                         <Row style={{flexDirection: 'column', flex: '0.9'}}>
                                             <p>{c.content}</p>
                                             <span style={{color: 'grey'}}>
-                                                <p>Created By :- {c.users && c.users.name}</p>
+                                                <p>Created By :- {c.creator && c.creator.name}</p>
                                                 <p>Created At :- {c.created_at}</p>
                                             </span>
                                         </Row>

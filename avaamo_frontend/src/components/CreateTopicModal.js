@@ -31,7 +31,7 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
     const [modalStyle] = React.useState(getModalStyle);
     const [subject, setSubject] = useState("");
     const [content, setContent] = useState("");
-    const [type, setType] = useState("DISCUSSION");
+    const [type, setType] = useState("discussion");
     const [creatorId] = useState(localStorage.getItem('id'));
 
     const submitTopic = () => {
@@ -41,7 +41,7 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
                 subject: subject,
                 content: content,
                 type: type,
-                status: 'PUBLISHED',
+                status: 'published',
                 creator_id: creatorId,
                 permalink: subject.toLowerCase().replace(' ', '_')
             }),
@@ -76,9 +76,9 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
                     setType(e.target.value);
                 }}
             >
-                <MenuItem value="DISCUSSION">Discussion</MenuItem>
-                <MenuItem value="IDEA">Idea</MenuItem>
-                <MenuItem value="QUESTION">Question</MenuItem>
+                <MenuItem value="discussion">Discussion</MenuItem>
+                <MenuItem value="idea">Idea</MenuItem>
+                <MenuItem value="question">Question</MenuItem>
             </Select>
             <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '1em'}}>
                 <Button variant="contained" disabled={!subject || subject == "" || !content || content == ""}

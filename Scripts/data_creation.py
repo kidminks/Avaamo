@@ -14,37 +14,46 @@ def get_random_string(length):
     return ''.join(random.choice(letters) for i in range(length))
 
 def generate_user(name, type, cursor):
-	password = get_random_string(8)
-	print("INSERT INTO users(name, type, password, created_at) values(%s, %s, %s, %s)", (name, type, password, today))
-	cursor.execute("INSERT INTO users(name, type, password, created_at) values(%s, %s, %s, %s)", (name, type, password, today))
+    password = get_random_string(8)
+    print("INSERT INTO users(name, type, password, created_at) values(%s, %s, %s, %s)", (name, type, password, today))
+    cursor.execute("INSERT INTO users(name, user_type, password, created_at, updated_at) values(%s, %s, %s, %s, %s)", (name, type, password, today, today))
 
 def generate_topic(creator_id, subject, content, status, permalink, type, created_time, cursor):
-	print("INSERT INTO topics(subject, content, status, permalink, type, creator_id) values(%s, %s, %s, %s, %s, %s)", (subject, content, status, permalink, type, creator_id))
-	cursor.execute("INSERT INTO topics(subject, content, status, permalink, type, creator_id, created_at, updated_at) values(%s, %s, %s, %s, %s, %s, %s, %s)", (subject, content, status, permalink, type, creator_id, created_time, today))
+    print("INSERT INTO topics(subject, content, status, permalink, type, creator_id) values(%s, %s, %s, %s, %s, %s)", (subject, content, status, permalink, type, creator_id))
+    cursor.execute("INSERT INTO topics(subject, content, status, permalink, topic_type, creator_id, created_at, updated_at) values(%s, %s, %s, %s, %s, %s, %s, %s)", (subject, content, status, permalink, type, creator_id, created_time, today))
 
 def generate_user_entries(cursor):
-	with open('dump/users.json') as f:
-		data = json.load(f)
-	users = data['data']
-	for user in users:
-		generate_user(user["name"], user["type"], cursor)
+    with open('dump/users.json') as f:
+        data = json.load(f)
+    users = data['data']
+    for user in users:
+        type = 1
+        if(user["type"] == 'ENDUSER'):
+            type = 0
+        generate_user(user["name"], type, cursor)
+
 
 def generate_topics(cursor):
-	with open('dump/topics.json') as f:
-		data = json.load(f)
-	topics = data['data']
-	for topic in topics:
-		cursor.execute("SELECT * from users where name = "+"'"+topic["creator"]["name"]+"'"+";")
-		record = cursor.fetchone()
-		creator_id = record[0]
-		generate_topic(creator_id, topic["subject"], topic["content"], topic["status"], topic["permalink"], topic["type"], topic["createdTime"], cursor)
+    with open('dump/topics.json') as f:
+        data = json.load(f)
+    topics = data['data']
+    for topic in topics:
+        cursor.execute("SELECT * from users where name = "+"'"+topic["creator"]["name"]+"'"+";")
+        record = cursor.fetchone()
+        creator_id = record[0]
+        type = 2
+        if(topic["type"] == 'DISCUSSION'):
+            type = 0
+        elif(topic["type"] == 'IDEA'):
+            type = 1
+        generate_topic(creator_id, topic["subject"], topic["content"], 0, topic["permalink"], type, topic["createdTime"], cursor)
 
 try:
     connection = psycopg2.connect(user = "postgres",
                                   password = "postgres",
                                   host = "localhost",
                                   port = "5432",
-                                  database = "avaamo_test")
+                                  database = "avaamo_backend_rails_development")
 
     cursor = connection.cursor()
     # Print PostgreSQL Connection properties
