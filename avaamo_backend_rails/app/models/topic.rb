@@ -15,9 +15,14 @@ class Topic < ApplicationRecord
     where(subject: subject)
   }
 
+  scope :not_comments, -> (){
+    where.not(topic_type: :comment)
+  }
+
   scope :filtered, -> (options = {}){
     query = all
     query = query.subject_search(options[:subject]) if options[:subject].present?
+    query = query.not_comments
     query
   }
 end

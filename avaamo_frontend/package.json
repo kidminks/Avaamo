@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
     "antd": "^4.6.4",
+    "history": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "0.9.5"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "0.9.5",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {},
   "scripts": {

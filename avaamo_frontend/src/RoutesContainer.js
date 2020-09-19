@@ -1,5 +1,5 @@
 import React from "react";
-import {Switch, Route} from "react-router-dom";
+import {Switch, Route, Redirect} from "react-router-dom";
 import {TopicsPage} from "./components/TopicsPage";
 import {TopicPage} from "./components/TopicPage";
 
@@ -20,6 +20,7 @@ const RoutesContainer = props => {
 					<TopicPage {...selfProps} baseRoute={props.baseRoute} />
 				)}
 			/>
+			<Redirect to="/topics"/>
 		</Switch>
 	)
 }

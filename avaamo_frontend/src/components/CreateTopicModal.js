@@ -40,7 +40,7 @@ const CreateTopicModal = ({showModal, setShowModal}) => {
             body: JSON.stringify({
                 subject: subject,
                 content: content,
-                type: type,
+                topic_type: type,
                 status: 'published',
                 creator_id: creatorId,
                 permalink: subject.toLowerCase().replace(' ', '_')
